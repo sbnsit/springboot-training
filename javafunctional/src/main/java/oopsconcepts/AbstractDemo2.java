@@ -1,6 +1,11 @@
 package oopsconcepts;
 
+
+// what is this class - runner class
+
 public class AbstractDemo2 {
+	
+	// this is the function where the thread starts execution
 	
 	public static void main(String[] args) {
 		
@@ -10,16 +15,21 @@ public class AbstractDemo2 {
 		show(obj2);
 		
 	}
+	// Phone is a super class and we are witnessing polymorphism here
 	
 	public static void show(Phone obj) {
 		obj.showConfig();
 		
 	}
+	
 
 }
 
+// super class 
 
 abstract class Phone {
+	
+	// function being declared
 	
 	public abstract void showConfig();
 	
