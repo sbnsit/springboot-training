@@ -6,10 +6,12 @@ class Emp {
 	int salary;
 	
 	// static variable 
+	// declaring
 	
     static String ceo;
     
     // static block
+    // initializing
     
     static {
     	ceo = "Lottar";
